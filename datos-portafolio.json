@@ -1,0 +1,105 @@
+{
+  "informacionPersonal": {
+    "nombre": "Jose Luis Diaz",
+    "titulo": "Desarrollador Web Full Stack",
+    "email": "tu-email@ejemplo.com",
+    "telefono": "+1 (123) 456-7890",
+    "ubicacion": "Tu ciudad, País",
+    "resumen": "Soy un desarrollador web apasionado por crear soluciones innovadoras y funcionales."
+  },
+  "redesSociales": {
+    "github": "https://github.com/Joludime",
+    "linkedin": "https://linkedin.com",
+    "twitter": "https://twitter.com/tuusuario",
+    "email": "tu-email@ejemplo.com"
+  },
+  "sobreMi": {
+    "parrafo1": "Soy un desarrollador web apasionado por crear soluciones innovadoras y funcionales. Me especializo en el desarrollo de aplicaciones web modernas utilizando las últimas tecnologías.",
+    "parrafo2": "Con experiencia en frontend y backend, me encanta transformar ideas en realidad digital, siempre buscando la mejor experiencia de usuario y código limpio.",
+    "parrafo3": "Mi trayectoria incluye 10+ proyectos completados y 2+ años de experiencia, trabajando con HTML5, CSS3, JavaScript y tecnologías modernas del desarrollo web."
+  },
+  "estadisticas": {
+    "proyectos": 10,
+    "años_experiencia": 2,
+    "dedicacion": "100%"
+  },
+  "habilidades": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "Responsive Design",
+      "Animaciones CSS"
+    ],
+    "backend": [
+      "Node.js",
+      "Express",
+      "Bases de Datos",
+      "APIs REST",
+      "Autenticación",
+      "Seguridad Web"
+    ],
+    "herramientas": [
+      "Git/GitHub",
+      "VS Code",
+      "Figma",
+      "Postman",
+      "Firebase",
+      "Netlify/Vercel"
+    ]
+  },
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Casa Lool Beh",
+      "descripcion": "Sistema de reservas para una casa de hospedaje que permite a los usuarios hacer reservas en línea, gestionar disponibilidad y seguimiento de reservas.",
+      "año": 2024,
+      "tecnologias": ["HTML5", "CSS3", "JavaScript"],
+      "github": "https://github.com/Joludime/Casa-Lool-Beh",
+      "demo": "https://joludime.github.io/Casa-Lool-Beh/",
+      "imagen": "/images/proyecto-1.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Sistema de Reservas Hotel",
+      "descripcion": "Sistema completo de gestión de reservas para hoteles con interfaz intuitiva, validación de datos y reportes.",
+      "año": 2024,
+      "tecnologias": ["HTML5", "CSS3", "JavaScript"],
+      "github": "https://github.com/Joludime/sistema-reservas-hotel",
+      "demo": "https://joludime.github.io/sistema-reservas-hotel/",
+      "imagen": "/images/proyecto-2.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Análisis de Reservas",
+      "descripcion": "Herramienta de análisis y estadísticas de reservas con gráficos interactivos y reportes detallados.",
+      "año": 2024,
+      "tecnologias": ["HTML5", "CSS3", "JavaScript"],
+      "github": "https://github.com/Joludime/ANALISIS_RESERVAS",
+      "demo": "https://joludime.github.io/ANALISIS_RESERVAS/",
+      "imagen": "/images/proyecto-3.jpg"
+    }
+  ],
+  "colores": {
+    "primario": "#1e3a8a",
+    "secundario": "#3b82f6",
+    "acento": "#0ea5e9",
+    "texto": "#1f2937",
+    "textoClaro": "#6b7280",
+    "grisClaro": "#f9fafb",
+    "exito": "#059669",
+    "advertencia": "#f59e0b"
+  },
+  "enlaces": {
+    "portafolioOriginal": "https://github.com/Joludime/PortafolioWeb",
+    "githubPages": "https://joludime.github.io/PortafolioWeb/",
+    "perfilGithub": "https://github.com/Joludime"
+  },
+  "metadatos": {
+    "version": "1.0",
+    "actualizado": "2025-11-11",
+    "autor": "Jose Luis Diaz",
+    "licencia": "MIT"
+  }
+}
