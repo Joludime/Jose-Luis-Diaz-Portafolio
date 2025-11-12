@@ -2,83 +2,82 @@
   "informacionPersonal": {
     "nombre": "Jose Luis Diaz",
     "titulo": "Desarrollador Web Full Stack",
-    "email": "tu-email@ejemplo.com",
-    "telefono": "+1 (123) 456-7890",
-    "ubicacion": "Tu ciudad, País",
-    "resumen": "Soy un desarrollador web apasionado por crear soluciones innovadoras y funcionales."
+    "email": "joludime291076@gmail.com",
+    "telefono": "+52 999 123 4567",
+    "ubicacion": "Mérida, Yucatán, México",
+    "resumen": "Desarrollador web apasionado por crear soluciones innovadoras y funcionales"
   },
   "redesSociales": {
     "github": "https://github.com/Joludime",
-    "linkedin": "https://linkedin.com",
-    "twitter": "https://twitter.com/tuusuario",
-    "email": "tu-email@ejemplo.com"
+    "linkedin": "https://linkedin.com/in/jose-luis-diaz",
+    "email": "joludime291076@gmail.com"
   },
   "sobreMi": {
-    "parrafo1": "Soy un desarrollador web apasionado por crear soluciones innovadoras y funcionales. Me especializo en el desarrollo de aplicaciones web modernas utilizando las últimas tecnologías.",
-    "parrafo2": "Con experiencia en frontend y backend, me encanta transformar ideas en realidad digital, siempre buscando la mejor experiencia de usuario y código limpio.",
-    "parrafo3": "Mi trayectoria incluye 10+ proyectos completados y 2+ años de experiencia, trabajando con HTML5, CSS3, JavaScript y tecnologías modernas del desarrollo web."
+    "parrafo1": "Soy un desarrollador web apasionado por crear soluciones innovadoras y funcionales. Me especializo en el desarrollo de aplicaciones web modernas utilizando las últimas tecnologías y mejores prácticas del desarrollo web.",
+    "parrafo2": "Con experiencia tanto en frontend como backend, me encanta transformar ideas en realidad digital, siempre buscando la mejor experiencia de usuario, código limpio y soluciones escalables que resuelvan problemas reales.",
+    "parrafo3": "Mi trayectoria incluye múltiples proyectos completados, destacando sistemas de reservas, aplicaciones de gestión y herramientas de análisis de datos. Trabajo con HTML5, CSS3, JavaScript y tecnologías modernas del desarrollo web, con un enfoque constante en aprendizaje continuo y mejora de habilidades."
   },
   "estadisticas": {
-    "proyectos": 10,
-    "años_experiencia": 2,
-    "dedicacion": "100%"
+    "proyectos": "15+",
+    "años_experiencia": "3+",
+    "dedicacion": "100%",
+    "tecnologias": "10+"
   },
   "habilidades": {
     "frontend": [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "React",
+      "HTML5 & CSS3",
+      "JavaScript ES6+",
       "Responsive Design",
-      "Animaciones CSS"
+      "Animaciones CSS",
+      "React",
+      "Vue.js"
     ],
     "backend": [
-      "Node.js",
-      "Express",
-      "Bases de Datos",
-      "APIs REST",
-      "Autenticación",
-      "Seguridad Web"
+      "Node.js & Express",
+      "APIs RESTful",
+      "Bases de Datos SQL",
+      "Python",
+      "PHP",
+      "Autenticación & Seguridad"
     ],
     "herramientas": [
-      "Git/GitHub",
+      "Git & GitHub",
       "VS Code",
       "Figma",
       "Postman",
       "Firebase",
-      "Netlify/Vercel"
+      "Netlify & Vercel"
     ]
   },
   "proyectos": [
     {
       "id": 1,
-      "nombre": "Casa Lool Beh",
-      "descripcion": "Sistema de reservas para una casa de hospedaje que permite a los usuarios hacer reservas en línea, gestionar disponibilidad y seguimiento de reservas.",
+      "nombre": "Casa Lool Beh - Sistema de Reservas",
+      "descripcion": "Sistema completo de reservas para casa de hospedaje que permite a los usuarios hacer reservas en línea, gestionar disponibilidad y realizar seguimiento de reservas. Incluye validación de datos en tiempo real, interfaz intuitiva y panel administrativo.",
       "año": 2024,
       "tecnologias": ["HTML5", "CSS3", "JavaScript"],
       "github": "https://github.com/Joludime/Casa-Lool-Beh",
       "demo": "https://joludime.github.io/Casa-Lool-Beh/",
-      "imagen": "/images/proyecto-1.jpg"
+      "destacado": true
     },
     {
       "id": 2,
       "nombre": "Sistema de Reservas Hotel",
-      "descripcion": "Sistema completo de gestión de reservas para hoteles con interfaz intuitiva, validación de datos y reportes.",
+      "descripcion": "Aplicación web profesional para gestión integral de reservas hoteleras con interfaz moderna e intuitiva. Permite filtrar habitaciones, gestionar disponibilidad, calcular precios y generar reportes detallados. Optimizado para rendimiento y UX.",
       "año": 2024,
-      "tecnologias": ["HTML5", "CSS3", "JavaScript"],
+      "tecnologias": ["HTML5", "CSS3", "JavaScript", "LocalStorage"],
       "github": "https://github.com/Joludime/sistema-reservas-hotel",
       "demo": "https://joludime.github.io/sistema-reservas-hotel/",
-      "imagen": "/images/proyecto-2.jpg"
+      "destacado": true
     },
     {
       "id": 3,
       "nombre": "Análisis de Reservas",
-      "descripcion": "Herramienta de análisis y estadísticas de reservas con gráficos interactivos y reportes detallados.",
+      "descripcion": "Herramienta avanzada de análisis y visualización de datos de reservas con gráficos interactivos. Procesa información histórica, genera estadísticas detalladas y ofrece insights valiosos para la toma de decisiones. Dashboard dinámico.",
       "año": 2024,
-      "tecnologias": ["HTML5", "CSS3", "JavaScript"],
+      "tecnologias": ["HTML5", "CSS3", "JavaScript", "Charts.js"],
       "github": "https://github.com/Joludime/ANALISIS_RESERVAS",
-      "demo": "https://joludime.github.io/ANALISIS_RESERVAS/",
-      "imagen": "/images/proyecto-3.jpg"
+      "destacado": true
     }
   ],
   "colores": {
@@ -92,14 +91,16 @@
     "advertencia": "#f59e0b"
   },
   "enlaces": {
-    "portafolioOriginal": "https://github.com/Joludime/PortafolioWeb",
-    "githubPages": "https://joludime.github.io/PortafolioWeb/",
+    "portafolioAntiguo": "https://joludime.github.io/PortafolioWeb/",
+    "portafolioNuevo": "https://joludime.github.io/Taller-Copilot/",
+    "githubPages": "https://joludime.github.io/",
     "perfilGithub": "https://github.com/Joludime"
   },
   "metadatos": {
-    "version": "1.0",
+    "version": "2.0",
     "actualizado": "2025-11-11",
     "autor": "Jose Luis Diaz",
-    "licencia": "MIT"
+    "licencia": "MIT",
+    "descripcion": "Portafolio profesional mejorado con diseño moderno y responsive"
   }
 }
