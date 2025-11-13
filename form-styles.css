@@ -1,0 +1,44 @@
+/* ===== ESTILOS ADICIONALES PARA FORMULARIO Y VALIDACIÓN ===== */
+
+/* Estilos para inputs con error */
+.form-group input.error,
+.form-group textarea.error {
+    border: 2px solid #ef4444 !important;
+    background-color: #fef2f2;
+}
+
+.form-group input.error:focus,
+.form-group textarea.error:focus {
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2) !important;
+}
+
+/* Mensaje de error */
+.error-message {
+    color: #ef4444;
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+    display: block;
+    font-weight: 500;
+}
+
+/* Botón deshabilitado */
+.submit-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.submit-button:disabled:hover {
+    transform: none !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Inputs en modo oscuro */
+@media (prefers-color-scheme: dark) {
+    .form-group input.error,
+    .form-group textarea.error {
+        background-color: rgba(239, 68, 68, 0.1);
+        border-color: #ef4444;
+        color: white;
+    }
+}
