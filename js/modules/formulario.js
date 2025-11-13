@@ -20,11 +20,11 @@ class Formulario {
     this.btnEnviar = document.querySelector('.submit-button');
     this.errores = {};
     
-    // Configuración de EmailJS (el usuario debe reemplazar estos valores)
+    // ✅ Configuración de EmailJS - YA CONFIGURADO
     this.emailjsConfig = {
-      serviceID: 'TU_SERVICE_ID',     // Cambiar por tu Service ID
-      templateID: 'TU_TEMPLATE_ID',   // Cambiar por tu Template ID
-      publicKey: 'TU_PUBLIC_KEY'      // Cambiar por tu Public Key
+      serviceID: 'service_5g2bqkd',
+      templateID: 'template_v18yegg',
+      publicKey: '3V3hLx9FbOUMx66G4'
     };
     
     if (this.formulario) {
@@ -282,13 +282,6 @@ class Formulario {
    * @param {Object} datos - Datos del formulario
    */
   async enviarFormulario(datos) {
-    // Verificar si EmailJS está configurado
-    if (this.emailjsConfig.serviceID === 'TU_SERVICE_ID') {
-      log('⚠️ EmailJS no está configurado. Por favor configura tus credenciales.', 'warning');
-      this.mostrarNotificacion('⚠️ El formulario no está configurado. Contacta al administrador.', 'error');
-      return;
-    }
-
     try {
       // Cambiar botón a estado enviando
       if (this.btnEnviar) {
