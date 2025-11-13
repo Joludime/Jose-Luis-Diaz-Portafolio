@@ -6,6 +6,9 @@
     <title>Jose Luis Diaz - Desarrollador Web Full Stack</title>
     <meta name="description" content="Portafolio profesional de Jose Luis Diaz, Desarrollador Web Full Stack especializado en soluciones web innovadoras">
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
     <!-- NAVEGACIÓN -->
@@ -282,15 +285,20 @@
                     LinkedIn
                 </a>
             </div>
-            <form class="contact-form">
+            
+            <!-- Formulario de Contacto -->
+            <form id="formulario-contacto" class="contact-form">
                 <div class="form-group">
-                    <input type="text" placeholder="Tu nombre" required>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
                 </div>
                 <div class="form-group">
-                    <input type="email" placeholder="Tu email" required>
+                    <input type="email" id="email" name="email" placeholder="Tu email" required>
                 </div>
                 <div class="form-group">
-                    <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
                 </div>
                 <button type="submit" class="submit-button">Enviar mensaje</button>
             </form>
