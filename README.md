@@ -40,8 +40,8 @@ Descripción profesional de mi trayectoria, experiencia y enfoque en el desarrol
 ### 4. 🛠️ Habilidades
 Organizadas en tres categorías:
 - **Frontend:** HTML5, CSS3, JavaScript ES6+, React, Vue.js, Responsive Design
-- **Backend:** Node.js, Express, APIs RESTful, Python, PHP, SQL
-- **Herramientas:** Git/GitHub, VS Code, Figma, Postman, Firebase, Netlify/Vercel
+- **Backend:** Node.js, Express, APIs RESTful, Python, PHP, SQL, MCP Servers
+- **Herramientas:** Git/GitHub, VS Code, Figma, Postman, Firebase, Netlify/Vercel, GitHub Actions, TypeScript
 
 ### 5. 🎓 Certificaciones
 Nueve certificaciones profesionales incluyendo:
@@ -53,6 +53,18 @@ Nueve certificaciones profesionales incluyendo:
 - Y más...
 
 ### 6. 🚀 Proyectos Destacados
+
+#### 🤖 MCP-MAIL - Servidor de Email para IA (2025) ⭐ NUEVO
+Servidor MCP Open Source que permite a Claude AI enviar correos electrónicos automáticamente desde múltiples cuentas de Gmail.
+- **Tecnologías:** Node.js, TypeScript, MCP, Nodemailer, GitHub Actions
+- **Características:**
+  - 📧 Soporte multi-cuenta (3 cuentas Gmail)
+  - 🔐 Configuración segura con variables de entorno
+  - 🤖 Integración directa con Claude Desktop
+  - 📝 Documentación completa y profesional
+  - ✅ Release v1.0.0 oficial con CI/CD
+- 🔗 [GitHub](https://github.com/Joludime/MCP-MAIL)
+- 📦 [Release v1.0.0](https://github.com/Joludime/MCP-MAIL/releases/tag/v1.0.0)
 
 #### Casa Lool Beh - Sistema de Reservas (2024)
 Sistema completo de reservas para casa de hospedaje con gestión de disponibilidad y seguimiento en tiempo real.
@@ -122,20 +134,25 @@ Formulario de contacto y enlaces directos a redes sociales profesionales.
 - HTML5 (Semántico y accesible)
 - CSS3 (Variables, Flexbox, Grid, Animaciones)
 - JavaScript ES6+ (Módulos, Async/Await, Intersection Observer)
+- Node.js (Para proyectos backend y MCP)
+- TypeScript (Para proyectos tipados)
 - Git & GitHub (Control de versiones)
 - GitHub Pages (Hosting)
+- GitHub Actions (CI/CD)
 
 ## 📈 Estadísticas
 
-- 📦 15+ Proyectos completados
+- 📦 20+ Proyectos completados
 - 💼 3+ Años de experiencia
 - 🛠️ 10+ Certificaciones
 - 💯 100% Dedicación
+- 🌟 Proyectos Open Source activos
 
 ## 🔗 Enlaces Importantes
 
 - 🌐 [Portafolio en Vivo](https://joludime.github.io/Jose-Luis-Diaz-Portafolio/)
 - 💻 [Perfil GitHub](https://github.com/Joludime)
+- 🚀 [MCP-MAIL Project](https://github.com/Joludime/MCP-MAIL)
 - 📧 [Email](mailto:joludime291076@gmail.com)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/jose-luis-diaz-morujo)
 
@@ -159,6 +176,8 @@ Este portafolio representa una evolución significativa respecto a versiones ant
 ✅ **Documentación completa** - Fácil de mantener y actualizar
 ✅ **Foto de perfil integrada** - Presentación visual mejorada
 ✅ **Sección de certificaciones** - Muestra credenciales profesionales
+✅ **Proyectos Open Source** - MCP-MAIL con release oficial
+✅ **CI/CD implementado** - Automatización y calidad
 
 ## 🔄 Próximas Mejoras
 
@@ -170,6 +189,7 @@ Este portafolio representa una evolución significativa respecto a versiones ant
 - [ ] Agregar animaciones más complejas
 - [ ] PWA (Progressive Web App)
 - [ ] Optimizar imagen de perfil
+- [ ] Añadir sección de Open Source contributions
 
 ## 📄 Licencia
 
